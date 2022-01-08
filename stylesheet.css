@@ -1,0 +1,262 @@
+body {
+    width                : 100%;
+    background-image     : url("Homepage background.svg");
+    background-position  : center;
+    background-repeat    : no-repeat;
+    background-size      : cover;
+    background-attachment: fixed;
+}
+
+
+p {
+    font-family: 'Trebuchet MS',
+        'Lucida Sans Unicode',
+        'Lucida Grande',
+        'Lucida Sans',
+        Arial,
+        sans-serif;
+    letter-spacing: 0.15em;
+    font-weight   : 100;
+    line-height   : 1.25em;
+}
+
+h1 {
+    font-family: 'Trebuchet MS',
+        'Lucida Sans Unicode',
+        'Lucida Grande',
+        'Lucida Sans',
+        Arial,
+        sans-serif;
+    letter-spacing: 0.15em;
+    font-weight   : 100;
+    line-height   : 1.25em;
+}
+
+h2 {
+    font-family: 'Trebuchet MS',
+        'Lucida Sans Unicode',
+        'Lucida Grande',
+        'Lucida Sans',
+        Arial,
+        sans-serif;
+    letter-spacing: 0.15em;
+    font-weight   : 100;
+    line-height   : 1.25em;
+}
+
+h3 {
+    font-family: 'Trebuchet MS',
+        'Lucida Sans Unicode',
+        'Lucida Grande',
+        'Lucida Sans',
+        Arial,
+        sans-serif;
+    letter-spacing: 0.15em;
+    font-weight   : 100;
+    line-height   : 1.25em;
+}
+
+h4 {
+    font-family: 'Trebuchet MS',
+        'Lucida Sans Unicode',
+        'Lucida Grande',
+        'Lucida Sans',
+        Arial,
+        sans-serif;
+    letter-spacing: 0.15em;
+    font-weight   : 100;
+    line-height   : 1.25em;
+}
+
+.welcome {
+    width     : 500px;
+    height    : 500px;
+    margin    : auto;
+    margin-top: 10em;
+
+    background-image : url("Polygon Black.svg");
+    background-repeat: no-repeat;
+    background-size  : 100%;
+}
+
+.welcome h1 {
+    font-size  : 1.2em;
+    color      : white;
+    text-align : center;
+    margin     : auto;
+    padding-top: 5em;
+}
+
+#welcome-p {
+    font-size    : 6em;
+    color        : white;
+    text-align   : center;
+    line-height  : 0em;
+    margin-bottom: 0.5em;
+    margin-top   : 0.5em;
+}
+
+#welcome-h3 {
+    font-size    : 0.8em;
+    margin-bottom: 2.5em;
+    color        : white;
+    text-align   : center;
+}
+
+
+.moreabout-border-wrap {
+
+    margin       : auto;
+    margin-bottom: 10em;
+    position     : relative;
+    background   : linear-gradient(to right, rgb(0, 38, 255), rgb(255, 185, 255));
+    width        : 8.3em;
+}
+
+
+.moreabout {
+    color  : white;
+    padding: 0.2em;
+}
+
+#moreabout-b {
+    background-color: rgb(0, 4, 71);
+    color           : rgb(0, 38, 255);
+    border-width    : 0.25em;
+    border-color    : black;
+    border-style    : none;
+    font-size       : 1em;
+    font-family     : 'Trebuchet MS',
+        'Lucida Sans Unicode',
+        'Lucida Grande',
+        'Lucida Sans',
+        Arial,
+        sans-serif;
+    font-weight : bold;
+    display     : block;
+    margin-left : auto;
+    margin-right: auto;
+    line-height : 2em;
+}
+
+#moreabout-b:hover {
+    /*background-color: rgb(255, 4, 71);*/
+    background-color: transparent;
+    color           : rgb(0, 0, 0);
+}
+
+.projects {
+    margin-top: 15em;
+    width     : 100%;
+}
+
+.QRazy {
+    background-color: rgb(0, 62, 121);
+    height          : 25em;
+    display         : grid;
+    justify-content : left;
+    align-items     : left;
+}
+
+#p1-title {
+    font-size    : 3em;
+    font-weight  : 900;
+    margin-top   : 0.5em;
+    margin-left  : 0.8em;
+    margin-bottom: 0.5em;
+}
+
+#p1-text {
+    margin-left   : 1.7em;
+    margin-bottom : 0.6em;
+    font-size     : 1.4em;
+    letter-spacing: 0.03em;
+}
+
+#e-QRazy {
+    margin-left     : 2em;
+    font-size       : 1.2em;
+    background-color: rgb(20, 200, 255);
+    letter-spacing  : 0.1em;
+    border-style    : none;
+    border-radius   : 1em;
+    width           : 7em;
+    height          : 2em;
+}
+
+
+
+
+.pixelCode {
+    background-color: rgb(0, 62, 121);
+    height          : 25em;
+    display         : grid;
+    justify-content : right;
+    align-items     : right;
+    margin-top      : 2em;
+}
+
+#p2-title {
+    font-size    : 3em;
+    margin-right : 0.8em;
+    font-weight  : 900;
+    margin-top   : 0.5em;
+    margin-bottom: 1em;
+    text-align   : right;
+}
+
+#p2-text {
+    margin-right  : 1.7em;
+    margin-bottom : 0.6em;
+    font-size     : 1.4em;
+    letter-spacing: 0.03em;
+    text-align    : right;
+}
+
+#e-pixelCode {
+    margin-right    : 2em;
+    font-size       : 1.2em;
+    background-color: rgb(20, 200, 255);
+    letter-spacing  : 0.1em;
+    border-style    : none;
+    border-radius   : 1em;
+    width           : 7em;
+    height          : 2em;
+    margin-left     : auto;
+}
+
+
+
+.faceCode {
+    background-color: rgb(0, 62, 121);
+    height          : 25em;
+    display         : grid;
+    justify-content : left;
+    margin-top      : 2em;
+}
+
+#p3-title {
+    font-size    : 3em;
+    font-weight  : 900;
+    margin-top   : 0.5em;
+    margin-left  : 0.8em;
+    margin-bottom: 1em;
+}
+
+#p3-text {
+    margin-left   : 1.7em;
+    margin-bottom : 0.6em;
+    font-size     : 1.4em;
+    letter-spacing: 0.03em;
+}
+
+#e-faceCode {
+    margin-left     : 1.7em;
+    font-size       : 1.2em;
+    background-color: rgb(20, 200, 255);
+    letter-spacing  : 0.1em;
+    border-style    : none;
+    border-radius   : 1em;
+    width           : 7em;
+    height          : 2em;
+}
