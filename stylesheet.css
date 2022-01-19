@@ -188,7 +188,7 @@ h4 {
 
 
 .pixelCode {
-    background-color: rgb(0, 62, 121);
+    background-color: rgb(0, 74, 87);
     height          : 25em;
     display         : grid;
     justify-content : right;
@@ -228,7 +228,7 @@ h4 {
 
 
 .faceCode {
-    background-color: rgb(0, 62, 121);
+    background-color: rgb(0, 75, 50);
     height          : 25em;
     display         : grid;
     justify-content : left;
