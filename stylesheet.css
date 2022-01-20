@@ -260,3 +260,20 @@ h4 {
     width           : 7em;
     height          : 2em;
 }
+
+.footer{background-color: white;
+        text-align: center;
+        margin-top: 2em;
+        margin-left: 6em;
+        margin-right: 6em;
+        background-position:center;
+        padding-bottom: 40em;
+        margin-bottom: 10em;}
+
+    #about_me_title{padding-top: 3em;
+                    font-size: 2em;}
+    #about_me_text{margin-top: 4em;}
+
+
+
+form{font-family: sans-serif;}
