@@ -149,7 +149,12 @@ h4 {
     margin-top: 15em;
     width     : 100%;
 }
-
+#project_title {
+    text-align: center;
+    font-size: 4em;
+    color: white;
+    margin-bottom: 0.5em;
+}
 .QRazy {
     background-color: rgb(0, 62, 121);
     height          : 25em;
@@ -225,41 +230,6 @@ h4 {
     margin-left     : auto;
 }
 
-
-
-.faceCode {
-    background-color: rgb(0, 75, 50);
-    height          : 25em;
-    display         : grid;
-    justify-content : left;
-    margin-top      : 2em;
-}
-
-#p3-title {
-    font-size    : 3em;
-    font-weight  : 900;
-    margin-top   : 0.5em;
-    margin-left  : 0.8em;
-    margin-bottom: 1em;
-}
-
-#p3-text {
-    margin-left   : 1.7em;
-    margin-bottom : 0.6em;
-    font-size     : 1.4em;
-    letter-spacing: 0.03em;
-}
-
-#e-faceCode {
-    margin-left     : 1.7em;
-    font-size       : 1.2em;
-    background-color: rgb(20, 200, 255);
-    letter-spacing  : 0.1em;
-    border-style    : none;
-    border-radius   : 1em;
-    width           : 7em;
-    height          : 2em;
-}
 
 .footer{background-color: white;
         text-align: center;
