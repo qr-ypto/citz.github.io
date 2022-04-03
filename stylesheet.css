@@ -156,7 +156,7 @@ h4 {
     margin-bottom: 0.5em;
 }
 .QRazy {
-    background-color: rgb(0, 99, 192);
+    background-color: rgb(0, 0, 0);
     height          : 25em;
     display         : grid;
     justify-content : left;
@@ -169,6 +169,7 @@ h4 {
     margin-top   : 0.5em;
     margin-left  : 0.8em;
     margin-bottom: 0.5em;
+    color: white;
 }
 
 #p1-text {
@@ -176,12 +177,13 @@ h4 {
     margin-bottom : 0.6em;
     font-size     : 1.4em;
     letter-spacing: 0.03em;
+    color: white;
 }
 
 #e-QRazy {
     margin-left     : 2em;
     font-size       : 1.2em;
-    background-color: rgb(20, 200, 255);
+    background-color: rgb(255, 255, 255);
     letter-spacing  : 0.1em;
     border-style    : none;
     border-radius   : 1em;
@@ -193,12 +195,13 @@ h4 {
 
 
 .pixelCode {
-    background-color: rgb(0, 123, 145);
+    background-color: rgb(0, 0, 0);
     height          : 25em;
     display         : grid;
     justify-content : right;
     align-items     : right;
     margin-top      : 2em;
+    width: 100%;
 }
 
 #p2-title {
@@ -208,6 +211,7 @@ h4 {
     margin-top   : 0.5em;
     margin-bottom: 1em;
     text-align   : right;
+    color: white;
 }
 
 #p2-text {
@@ -216,12 +220,13 @@ h4 {
     font-size     : 1.4em;
     letter-spacing: 0.03em;
     text-align    : right;
+    color: white;
 }
 
 #e-pixelCode {
     margin-right    : 2em;
     font-size       : 1.2em;
-    background-color: rgb(20, 200, 255);
+    background-color: rgb(255, 255, 255);
     letter-spacing  : 0.1em;
     border-style    : none;
     border-radius   : 1em;
