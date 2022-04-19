@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
 body {
     width                : 100%;
     background-image     : url("Homepage background.svg");
@@ -9,74 +11,46 @@ body {
 
 
 p {
-    font-family: 'Trebuchet MS',
-        'Lucida Sans Unicode',
-        'Lucida Grande',
-        'Lucida Sans',
-        Arial,
-        sans-serif;
+    font-family: 'Rubik', sans-serif;
     letter-spacing: 0.15em;
     font-weight   : 100;
     line-height   : 1.25em;
 }
 
 h1 {
-    font-family: 'Trebuchet MS',
-        'Lucida Sans Unicode',
-        'Lucida Grande',
-        'Lucida Sans',
-        Arial,
-        sans-serif;
+    font-family: 'Rubik', sans-serif;
     letter-spacing: 0.15em;
     font-weight   : 100;
     line-height   : 1.25em;
 }
 
 h2 {
-    font-family: 'Trebuchet MS',
-        'Lucida Sans Unicode',
-        'Lucida Grande',
-        'Lucida Sans',
-        Arial,
-        sans-serif;
+    font-family: 'Rubik', sans-serif;
     letter-spacing: 0.15em;
     font-weight   : 100;
     line-height   : 1.25em;
 }
 
 h3 {
-    font-family: 'Trebuchet MS',
-        'Lucida Sans Unicode',
-        'Lucida Grande',
-        'Lucida Sans',
-        Arial,
-        sans-serif;
+    font-family: 'Rubik', sans-serif;
     letter-spacing: 0.15em;
     font-weight   : 100;
     line-height   : 1.25em;
 }
 
 h4 {
-    font-family: 'Trebuchet MS',
-        'Lucida Sans Unicode',
-        'Lucida Grande',
-        'Lucida Sans',
-        Arial,
-        sans-serif;
+    font-family: 'Rubik', sans-serif;
     letter-spacing: 0.15em;
     font-weight   : 100;
     line-height   : 1.25em;
 }
 
 .welcome {
-    /*padding-left: 25%;
-    padding-right: 25%;*/
     height    : 100%;
     margin    : auto;
     margin-top: 5%;
     background-image : url("Polygon Black.svg");
     background-repeat: no-repeat;
-    background-size: 70%;
     background-position: center;
     padding: 20%;
 }
