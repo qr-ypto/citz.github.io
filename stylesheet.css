@@ -83,10 +83,9 @@ h4 {
 .moreabout-border-wrap {
 
     margin       : auto;
-    margin-bottom: 0%;
     position     : relative;
     background   : linear-gradient(to right, rgb(0, 38, 255), rgb(255, 185, 255));
-    width        : 134px;
+    width        : fit-content;
 }
 
 
@@ -109,8 +108,8 @@ h4 {
         sans-serif;
     font-weight : bold;
     display     : block;
-    margin-left : auto;
-    margin-right: auto;
+    padding-left : 3px;
+    padding-right: 3px;
     line-height : 2em;
     text-decoration: none;
     text-align: center;
@@ -202,19 +201,47 @@ h4 {
     color: white;
 }
 
-#e-pixelCode {
-    margin-right    : 2em;
-    font-size       : 1.2em;
-    background-color: rgb(255, 255, 255);
-    letter-spacing  : 0.1em;
-    border-style    : none;
-    border-radius   : 1em;
-    width           : 7em;
-    height          : 2em;
-    margin-left     : auto;
+#explore-button {
+    margin-left: 1px;
+    margin-right: 1px;
 }
-#e-pixelCode:hover {
-    background-color: grey;
+.p-explore-border-wrap {
+
+    margin       : auto;
+    background   : linear-gradient(to right, rgb(0, 38, 255), rgb(255, 185, 255));
+    width: fit-content;
+}
+
+
+.explore {
+    color  : white;
+    padding: 3px;
+}
+
+#p-explore {
+    background-color: rgb(0, 4, 71);
+    color           : rgb(0, 38, 255);
+    border-color    : black;
+    border-style    : none;
+    font-size       : 1em;
+    font-family     : 'Trebuchet MS',
+        'Lucida Sans Unicode',
+        'Lucida Grande',
+        'Lucida Sans',
+        Arial,
+        sans-serif;
+    font-weight : bold;
+    display     : block;
+    padding-left : 30px;
+    padding-right: 30px;
+    line-height : 2em;
+    text-decoration: none;
+    text-align: center;
+}
+
+#p-explore:hover {
+    background-color: transparent;
+    color           : rgb(0, 0, 0);
 }
 
 
